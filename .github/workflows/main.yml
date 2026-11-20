@@ -14,3 +14,8 @@ jobs:
 
       - name: 3) Ajout de la commande pwd
         run: pwd
+
+      - name: 4a) checkout du code source
+        uses: actions/checkout@v5
+      - name: 4b) Ajout de la commande ls -al
+        run: ls -al
