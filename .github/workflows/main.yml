@@ -11,3 +11,6 @@ jobs:
 
       - name: 2) Afficher la date du système
         run: date
+
+      - name 3) Ajout de la commande pwd
+        run: pwd
